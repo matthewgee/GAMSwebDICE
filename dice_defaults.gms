@@ -295,6 +295,7 @@ model CO2 /all/;
 * Optimal run
 $include def_opt.gms
 $include sigmaput.gms
+$include ModelOutput2.gms
 
 $ontext
 $include output_default.gms
