@@ -13,6 +13,4 @@ PUT / ;
 LOOP (T, put opt_indem(t)::3);
 PUT / ;
 LOOP (T, put opt_sigma(t)::3);
-PUT / ;
-LOOP (T, put opt_i(t)::3);
 PUTCLOSE csv;
