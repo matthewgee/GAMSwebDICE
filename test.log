@@ -1,0 +1,18 @@
+
+--- Job test.gms Start 07/25/11 15:31:02 WEX-WEI 23.6.5 x86_64/MS Windows     
+GAMS Rev 236  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Hoover Institution                             G100810:1451AP-WIN
+          Stanford University                                        DC1289
+          License for teaching and research at degree granting institutions
+--- Starting compilation
+--- test.gms(2) 2 Mb
+--- call tr , . <test.csv >temp.csv
+--- test.gms(4) 2 Mb
+--- call tr ; , <temp.csv >test.csv
+--- test.gms(7) 2 Mb
+--- .test.csv(3) 3 Mb
+--- test.gms(9) 3 Mb
+--- Starting execution: elapsed 0:00:00.187
+--- test.gms(12) 4 Mb
+*** Status: Normal completion
+--- Job test.gms Stop 07/25/11 15:31:02 elapsed 0:00:00.197

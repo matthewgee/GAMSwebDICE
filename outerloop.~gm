@@ -1,0 +1,10 @@
+$ontext
+changes to test the stern run
+DICE delta version 8
+July 17, 2008
+This is for the revised model with climate and emissions modules changed.
+This version is used for the 2007 book.
+$offtext
+
+
+solve CO2 maximizing UTILITY using nlp ;

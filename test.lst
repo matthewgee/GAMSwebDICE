@@ -1,0 +1,55 @@
+GAMS Rev 236  WEX-WEI 23.6.5 x86_64/MS Windows          07/25/11 15:31:02 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  * translate , to . using tr
+   3  * translate ; to , using tr
+   5  table data(*,*)
+INCLUDE    C:\Users\Sonia\Documents\gamsdir\projdir\test.csv
+   8  dummy,new-york,chicago,topeka
+   9  seattle,2.5,1.7,1.8
+  10  san-diego,2.5,1.8,1.4
+  12  display data;
+GAMS Rev 236  WEX-WEI 23.6.5 x86_64/MS Windows          07/25/11 15:31:02 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  C:\Users\Sonia\Documents\gamsdir\projd
+                                          ir\test.gms
+     2        2 CALL           1       2  tr , . <test.csv >temp.csv
+     3        4 CALL           1       4  tr ; , <temp.csv >test.csv
+     4        7 INCLUDE        1       7  .C:\Users\Sonia\Documents\gamsdir\proj
+                                           dir\test.csv
+
+
+COMPILATION TIME     =        0.172 SECONDS      3 Mb  WEX236-236 Apr  6, 2011
+GAMS Rev 236  WEX-WEI 23.6.5 x86_64/MS Windows          07/25/11 15:31:02 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+----     12 PARAMETER data  
+
+             new-york     chicago      topeka
+
+seattle         2.500       1.700       1.800
+san-diego       2.500       1.800       1.400
+
+
+
+EXECUTION TIME       =        0.015 SECONDS      4 Mb  WEX236-236 Apr  6, 2011
+
+
+USER: Hoover Institution                             G100810:1451AP-WIN
+      Stanford University                                        DC1289
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\Sonia\Documents\gamsdir\projdir\test.gms
+Output     C:\Users\Sonia\Documents\gamsdir\projdir\test.lst

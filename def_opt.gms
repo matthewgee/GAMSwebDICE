@@ -1,0 +1,57 @@
+* Solution for optimal run
+
+solve CO2 maximizing UTILITY using nlp ;
+
+
+* Definition of opt results
+
+Parameters
+Year(t)         Date
+opt_y(t)
+opt_cpc(t)
+opt_s(t)
+opt_indem(t)
+opt_sigma(t)
+opt_tatm(t)
+opt_mat(t)
+opt_tax(t)
+opt_ri(t)
+opt_rr(t)
+opt_al(t)
+opt_forcoth(t)
+opt_l(t)
+opt_etree(t)
+opt_yy(t)
+opt_cc(t)
+opt_miu(t)
+opt_wem(t)
+opt_ri(t)
+opt_dam(t)
+opt_abate(t)
+opt_mcemis(t)
+opt_utility   ;
+
+Year(t)         = 2005 +10*(ord(t)-1);
+opt_y(t)=y.l(t);
+opt_cpc(t)=cpc.l(t);
+opt_s(t)=s.l(t)     ;
+opt_indem(t)= e.l(t)-etree(t);;
+opt_sigma(t)=sigma(t) ;
+opt_tatm(t)=tatm.l(t)  ;
+opt_mat(t)=mat.l(t)     ;
+opt_tax(t)=-1*ee.m(t)*1000/(kk.m(t)+.00000000001)       ;
+opt_ri(t)=ri.l(t);
+opt_rr(t)=rr(t)   ;
+opt_al(t)=al(t)    ;
+opt_forcoth(t)=forcoth(t);
+opt_l(t)=l(t);
+opt_etree(t)=etree(t);
+opt_yy(t)=yy.m(t)     ;
+opt_cc(t)=cc.m(t)      ;
+opt_miu(t)=miu.l(t)     ;
+opt_wem(t)= e.l(t);
+opt_ri(t)=ri.l(t)         ;
+opt_dam(t)= damages.l(t);
+opt_abate(t) = abatecost.l(t);
+opt_mcemis(t)= expcost2*cost1(t)*miu.l(t)**(expcost2-1)/sigma(t)*1000;
+opt_utility=utility.l        ;

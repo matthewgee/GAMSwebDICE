@@ -1,0 +1,17 @@
+
+--- Job setup.gms Start 07/26/11 20:08:12 WEX-WEI 23.6.5 x86_64/MS Windows     
+GAMS Rev 236  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Initiative for Computational Economics 2011    G110725/0001AS-GEN
+          University of Chicago                                      DC9139
+          License for teaching and research at degree granting institutions
+--- Starting compilation
+--- setup.gms(240) 3 Mb 2 Errors
+*** Error   8 in C:\Users\Sonia\Documents\gamsdir\projdir\setup.gms
+    ')' expected
+*** Error 409 in C:\Users\Sonia\Documents\gamsdir\projdir\setup.gms
+    Unrecognizable item - skip to find a new statement
+      looking for a ';' or a key word to get started again
+--- setup.gms(264) 3 Mb 2 Errors
+*** Status: Compilation error(s)
+--- Job setup.gms Stop 07/26/11 20:08:12 elapsed 0:00:00.010
+Exit code = 2
