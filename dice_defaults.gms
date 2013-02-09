@@ -31,7 +31,7 @@ SCALARS
  GSIGMA   Initial growth of sigma per decade              /-.0730    /
  DSIG     Decline rate of decarbonization per decade      /.003   /
  DSIG2    Quadratic term in decarbonization               / .000   /
- ELAND0   Carbon emissions from land 2005(GtC per decade) / 11.000  /
+ ELAND0   Carbon emissions from land 2005(GtC per decade) / 1.1000  /
 
 ** Carbon cycle
  MAT2000  Concentration in atmosphere 2005 (GtC)          /808.9   /
