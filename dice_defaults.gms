@@ -292,6 +292,9 @@ option limrow = 0;
 option limcol = 0;
 model CO2 /all/;
 
+*Output Simulation
+$include simput.gms
+
 * Optimal run
 $include def_opt.gms
 $include sigmaput.gms
