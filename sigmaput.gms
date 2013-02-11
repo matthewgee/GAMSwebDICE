@@ -12,5 +12,5 @@ LOOP (T, put opt_cpc(t)::3);
 PUT / ;
 LOOP (T, put opt_indem(t)::3);
 PUT / ;
-LOOP (T, put opt_sigma(t)::3);
+LOOP (T, put opt_miu(t)::3);
 PUTCLOSE csv;
